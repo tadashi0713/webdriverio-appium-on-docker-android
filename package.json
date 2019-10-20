@@ -1,0 +1,24 @@
+{
+  "name": "webdriverio-appium-on-docker-android",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tadashi0713/webdriverio-appium-on-docker-android.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tadashi0713/webdriverio-appium-on-docker-android/issues"
+  },
+  "homepage": "https://github.com/tadashi0713/webdriverio-appium-on-docker-android#readme",
+  "devDependencies": {
+    "@wdio/cli": "^5.15.1",
+    "appium": "^1.15.1",
+    "webdriverio": "^5.15.1"
+  }
+}
