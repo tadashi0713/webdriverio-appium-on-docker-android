@@ -6,8 +6,8 @@ services:
     ports:
       - 4444:4444
 
-  nexus_5_9.0:
-    image: butomo1989/docker-android-x86-9.0
+  nexus_5_10.0:
+    image: butomo1989/docker-android-x86-10.0
     privileged: true
     depends_on:
       - selenium_hub
