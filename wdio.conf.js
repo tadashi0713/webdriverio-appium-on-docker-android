@@ -61,11 +61,9 @@ exports.config = {
     //
     capabilities: [{
         platformName: 'Android',
-        automationName: 'UIAutomator2',
-        app: '/root/tmp/apks/Android-NativeDemoApp.apk',
-        deviceName: 'Android Emulator',
-        unicodeKeyboard: true,
-        avd: 'nexus_5_8.0'
+        'appium:automationName': 'UIAutomator2',
+        'appium:app': '/root/tmp/apks/Android-NativeDemoApp.apk',
+        'appium:deviceName': 'Android Emulator'
     }],
     //
     // ===================
