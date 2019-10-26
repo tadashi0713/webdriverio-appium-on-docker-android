@@ -1,0 +1,20 @@
+version: "2.2"
+
+services:
+  selenium_hub:
+    image: selenium/hub
+    ports:
+      - 4444:4444
+
+  nexus_5_8.0:
+    image: butomo1989/docker-android-x86-8.0
+    privileged: true
+    depends_on:
+      - selenium_hub
+    volumes:
+      - $PWD/apks:/root/tmp/apks
+    environment:
+      - DEVICE=Nexus 5
+      - CONNECT_TO_GRID=true
+      - APPIUM=true
+      - SELENIUM_HOST=selenium_hub
