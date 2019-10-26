@@ -12,7 +12,7 @@ services:
     depends_on:
       - selenium_hub
     ports:
-      - 6080
+      - 6080:6080
     volumes:
       - $PWD/apks:/root/tmp/apks
     environment:
