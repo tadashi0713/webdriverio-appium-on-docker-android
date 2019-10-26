@@ -1,7 +1,7 @@
 import Page from "./Page";
 import TabSection from "./sections/TabSection";
 
-class HomePage extends Page {
+class FormsPage extends Page {
   private _tabSection: TabSection = new TabSection();
 
   public get tabSection(): TabSection {
@@ -9,4 +9,4 @@ class HomePage extends Page {
   }
 }
 
-export default HomePage;
+export default FormsPage;
