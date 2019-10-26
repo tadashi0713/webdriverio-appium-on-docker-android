@@ -17,8 +17,7 @@ export default class TabSection extends Section {
     return new FormsPage();
   }
 
-  public goToHome(): HomePage {
-    this.homeButton.click();
-    return new HomePage();
+  public waitForTabShown() {
+    this.homeButton.waitForDisplayed(20000)
   }
 }
