@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/tadashi0713/webdriverio-appium-on-docker-android#readme",
   "devDependencies": {
-    "@types/chai": "4.2.5",
+    "@types/chai": "4.2.22",
     "@types/mocha": "5.2.7",
     "@wdio/appium-service": "5.16.10",
     "@wdio/cli": "5.16.10",
@@ -26,7 +26,7 @@
     "@wdio/spec-reporter": "5.16.5",
     "@wdio/sync": "5.16.10",
     "appium": "1.15.1",
-    "chai": "4.2.0",
+    "chai": "4.3.4",
     "ts-node": "8.5.4",
     "tsconfig-paths": "3.9.0",
     "typescript": "3.7.2",
