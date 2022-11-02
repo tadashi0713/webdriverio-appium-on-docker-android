@@ -25,7 +25,7 @@
     "@wdio/mocha-framework": "5.16.10",
     "@wdio/spec-reporter": "5.16.5",
     "@wdio/sync": "5.16.10",
-    "appium": "1.15.1",
+    "appium": "1.22.3",
     "chai": "4.2.0",
     "ts-node": "8.5.4",
     "tsconfig-paths": "3.9.0",
